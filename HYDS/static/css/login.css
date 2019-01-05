@@ -1,0 +1,286 @@
+/*banner*/
+#login-banner{
+	width:1000px;
+	margin:0 auto;
+	margin-top:20px;
+	
+}
+#login-container{
+	width:1100px;
+	margin:0 auto;
+}
+.login-left{
+	width:420px;
+	height:315px;
+	background: url(../img/login/410-290.png) no-repeat left bottom;
+	margin:40px 40px 0 0;
+	float: left;
+}
+.login-right{
+	width:486px;
+	padding-left:80px;
+	border-left:1px dashed #ddd;
+	float: left;
+}
+.login-form{
+	width:300px;
+	padding:20px 40px;
+	margin-top:25px;
+	box-shadow:2px 1px 5px rgba(0,0,0,.4)
+}
+.login-form h1{
+	height:30px;
+	font-size:19px;
+	border-bottom: 1px solid #eee;
+	color:#666;
+}
+.login-form li{
+	width:300px;
+	height:35px;
+	margin-top:10px;
+}
+.login-form-list{
+	padding:40px 0;
+	
+}
+.login-form-name{
+	font-size:14px;
+	width:75px;
+	text-align: right;
+	color:#393939;
+	line-height:33px;
+	float:left;
+}
+.login-form-con{
+	font-size:14px;
+	width:207px;
+	height:33px;
+	line-height:33px;
+	float: left;
+	color:#bbb;
+	border:1px solid #dedede;
+	outline:0;
+}
+.login-error{
+	color:#c80a28;
+	
+	width:100%;
+	float: left;
+}
+.login-btn{
+	cursor:pointer;
+	background:#BE0929;
+	width:140px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	color:#fff;
+	border-radius: 2px;
+	letter-spacing: 1px;
+	border:none;
+	float: left;
+}
+.login-radio{
+	margin-left:5px;
+	
+}
+.login-other{
+	margin-top:30px;
+	margin-bottom:15px;
+	width:528px;
+	
+}
+.login-other-title{
+	width:84px;
+	height:29px;
+	float: left;
+}
+.login-other a{
+	float:left;
+	width:97px;
+	height:29px;
+	margin-right:10px;
+	
+}
+/*注册页面*/
+.register-login{
+	height:43px;
+	margin-left:100px;
+	width:360px;
+	font-size:13px;
+	line-height:40px;
+	
+}
+.register-login-btn{
+	background: url(../img/login/NEWS_login.png) no-repeat  -347px -211px;
+	width:103px;
+	height:29px;
+	border:none;
+	color:#fff;
+	font-size:16px;
+	text-align: center;
+	line-height:29px;
+	margin:8px 0 0 10px;
+	letter-spacing:1px;
+	cursor: pointer;
+}
+.subscription-prompt{
+	margin-top:8px;
+	margin-left:93px;
+	width:430px;
+	height:97px;
+	position: relative;
+}
+.subscription-con{
+	position: absolute;
+	left:5px;
+	bottom:35px;
+}
+.subscription-txt{	
+	width:250px;
+	height:25px;
+	border:1px solid #ddd;
+	float: left;
+	font:14px/20px "宋体";
+	color:#666;
+	outline: none;
+}
+.subscription-btn{	
+	width:70px;
+	height:22px;
+	border:none;
+	float: left;
+	background: url(../img/login/footer00.png) no-repeat;
+	color:#666;
+	margin:2px 8px;
+	cursor:pointer;
+}
+/*右侧*/
+.register-right{
+	height:500px;
+	border-left:1px dashed #ddd;
+	margin:30px 0 0 0;
+	padding-left:50px;
+	float:left;
+}
+.register-nav{
+	width:550px;
+	border-bottom:1px dashed #ddd;
+	height:120px;
+	line-height:50px;
+}
+.register-num{
+	background: url(../img/login/NEWS_login.png) no-repeat 0 -326px;
+	width:22px;
+	height:22px;
+	color:#fff;
+	float:left;
+	text-align: center;
+	line-height:22px;
+	margin-top:13px;
+}
+.register-numName{
+	margin-left:8px;
+	line-height:50px;
+	float: left;
+	
+}
+.register-fs{
+	width:316px;
+	margin-top:8px;
+	float:left;
+}
+.telbtn{
+	background:url(../img/login/NEWS_login.png) no-repeat 0 -102px;
+	width:135px;
+	height:38px;
+	border:none;
+	line-height:32px;
+	float: left;
+	text-align: center;
+	font-size:14px;
+	margin-left:10px;
+	color:#fff;
+}
+.mailbtn{
+	background:url(../img/login/NEWS_login.png) no-repeat 0 -151px;
+	width:135px;
+	height:38px;
+	border:none;
+	line-height:32px;
+	float: left;
+	text-align: center;
+	font-size:14px;
+	margin-left:10px;
+	color:#393939;
+}
+.register-tip{
+	float:left;
+	margin-top:10px;
+	border:1px solid #ddd;
+	border-radius: 10px;
+	background: #fffac3;
+	line-height:50px;
+}
+.register-tip span{
+	display: block;
+}
+/*注册信息*/
+.register-mas{
+	margin-top:20px;
+}
+.register-list{
+	width:580px;
+}
+.register-list li{
+	width:580px;
+	line-height:33px;
+	float:left;
+}
+.register-list-name{
+	width:115px;
+	text-align: right;
+	color:#393939;
+	float:left;
+}
+.register-list-txt{
+	background:url(../img/login/shopping_login.png) no-repeat -0 -182px;
+	width:210px;
+	height:33px;
+	border:none;
+	float:left;
+	text-indent: 5px;
+	line-height:33px;
+}
+.register-list-telphone{
+	background:url(../img/login/NEWS_login.png) no-repeat -256px -107px;
+	width:116px;
+	height:26px;
+	text-align:center;
+	margin:3px 0 0 5px;
+	color:#7b7b7b;
+	border:none;
+}
+.register-list-con{
+	float:left;
+	color:#7b7b7b;
+	text-indent:115px;
+	width:610px;
+}
+.register-list-protocol{
+	float:left;
+	color:#393939;
+	text-indent: 115px;
+	font-size:16px;
+	margin-top:10px;
+}
+.register-list-agree{
+	background: url(../img/login/NEWS_login.png) no-repeat 0 -51px;
+	width:171px;
+	height:43px;
+	border:none;
+	font-size:18px;
+	color:#fff;
+	margin:10px 0 0 120px;
+	cursor:pointer;
+}

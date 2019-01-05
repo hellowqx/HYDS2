@@ -1,0 +1,68 @@
+.user_main{width:100%;height:auto;overflow:hidden;font-family: '微软雅黑'}
+.user_wrap{width:990px;height:auto;margin:0 auto;overflow:hidden;}
+
+/*通用表单样式**/
+.user_wrap .form{ padding:5px;}
+.user_wrap .form label{ display:inline-block;min-width:60px;height:20px; line-height:20px; }
+.user_wrap .form input[type=text]{height:20px; line-height:20px; }
+.user_wrap .form ul li{margin-bottom:5px;margin-top:4px;  }
+
+/*遮罩*/
+#shade{width:100%;height:100%;position:fixed;z-index:1001;top:0;left:0;background:#000;opacity: 0.5;filter: alpha(opacity=50);}
+
+/*弹出框*/
+.cpm{min-width:600px;min-height:350px;position: fixed;z-index:2;top:50%;margin-top:-200px;left:50%;margin-left:-300px;}
+.cpm .bg{width:100%;height:100%;background: #fff;opacity:0.4;filter: alpha(opacity=40);position:absolute;z-index:4;}
+.cpm .con{width:570px;min-height:310px;background:#fff;position:absolute;top:15px;left:15px;z-index:6;}
+.cpm .con a.close_btn{width:14px;height:15px;background:url(../img/user/user_center.png) no-repeat -160px -719px;position:absolute;right:18px;top:13px;}
+.cpm .con a.close_btn:hover{background:url(../img/user/user_center.png) no-repeat -195px -713px;top:7px;right:12px;width:26px;height:26px;}
+.cpm .con>h2{font-size:16px;color:#333;font-weight: bold;padding:10px;}
+
+/*您所在的位置*/
+.user_wrap .crumbs{font-family: '宋体';font-size:12px;color:#999;margin:20px 0;}
+.user_wrap .crumbs>a{font-style:inherit;color:inherit;}
+
+
+
+/*左侧菜单导航*/
+.user_wrap .user_left{width:138px;float:left;margin-right:10px;}
+.user_wrap .user_left a.home{width:100%;height:38px;line-height:38px;display:inline-block;text-decoration:none;border:solid 1px #ddd;color:#333;font-size:14px;font-family: '微软雅黑';font-weight: bold;background:url(../img/user/1.png) no-repeat 12px 5px;}
+.user_wrap .user_left .home>span{padding-left:54px;}
+.user_wrap .user_left .nav{width:100%;height:auto;border:solid 1px #ddd;border-bottom:none;margin-top:10px;}
+.user_wrap .user_left .nav .menu{border-bottom:solid 1px #ddd;}
+.user_wrap .user_left .nav .menu>dt{width:85.5%;height:30px;line-height:30px;background:#fafafa;padding:0 10px;font-family: '宋体';color:#333;font-size:12px;font-weight:bold;cursor: pointer;}
+.user_wrap .user_left .nav .menu>dt .arrow{background:url(../img/user/user_center.png) no-repeat -39px -290px;width:8px;height:5px;float:right;margin-top:12px;}
+.user_wrap .user_left .nav .menu>dt .hid .arrow{background:url(../img/user/user_center.png) no-repeat -64px -289px;width:5px;height:8px;}
+.user_wrap .user_left .nav .menu>dd{width:71%;padding:10px 20px;}
+.user_wrap .user_left .nav .menu>dd>ul>li{padding-bottom:7px;}
+.user_wrap .user_left .nav .menu>dd>ul>li.last{padding-bottom:0px;}
+.user_wrap .user_left .nav .menu>dd>ul>li>a{font-family: '宋体';color:#333;}
+.user_wrap .user_left .nav .menu>dd>ul>li>a:hover{color:#c80a28;text-decoration: none;}
+.user_wrap .user_left .nav .menu>dd>ul>li.on>a{color:#c80a28;}
+.user_wrap .user_left .ad{width:140px;height:auto;overflow:hidden;}
+.user_wrap .user_left .ad img{margin-top:10px;}
+
+/*右侧内容*/
+.user_wrap .user_right{width:840px;height:auto;float:left;font-family: '宋体';}
+.user_wrap .user_right .red{color:#c80a28;}
+.user_wrap .user_right .blue{color:#3366cc;}
+
+.user_wrap .user_right h1.theme{width:100%;overflow:hidden;color:#c80a28;font-family: '微软雅黑';font-size:14px;font-weight: bold;padding-bottom:2px;border-bottom:solid 1px #c80a28;margin-bottom:8px;}
+
+/*修改密码*/
+#user_pswd{width:100%;overflow:hidden;}
+#user_pswd .info{padding:15px 0 0 155px;}
+#user_pswd .info>p{font-family: '微软雅黑';font-size:14px;color:#333;font-weight: bold;text-indent: 15px;}
+#user_pswd .info .info_forms{padding:10px 0;}
+#user_pswd .info .item{margin-bottom: 26px;width: 100%;height: auto;overflow: hidden;}
+#user_pswd .info .item .left{min-width:70px;font-size: 12px;text-align:right;width: 84px;line-height: 18px;margin-right:10px;line-height: 23px;}
+#user_pswd .info .item .right input[type=text].txt_pswd{width:180px;height:23px;line-height:23px;border:solid 1px #ddd;}
+#user_pswd .info input[type=submit].save_btn {margin-left: 95px;}
+
+/* FORM */
+input[type="button"],input[type="submit"],input[type="reset"]{background-color:transparent;padding:0;border:0}
+input[type=text],input[type=password],textarea{border:1px solid #dedede;outline:0;width:240px;height:30px}
+input[type=text]:focus,input[type=password]:focus,textarea:focus{background:#FFF;color:#373737;outline:0;border:1px solid #444}
+
+input[type=submit].save_btn{background: url(../img/user/user_center.png) no-repeat -305px -310px;width:49px;height:25px;}
+input[type=submit].save_btn:active{background-position: -360px -310px;}
